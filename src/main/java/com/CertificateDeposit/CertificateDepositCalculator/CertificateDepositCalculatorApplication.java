@@ -9,5 +9,6 @@ public class CertificateDepositCalculatorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CertificateDepositCalculatorApplication.class, args);
 	}
+	
 
 }
