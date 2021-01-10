@@ -1,4 +1,4 @@
-package com.CertificateDeposit.CertificateDepositCalculator.Model;
+package com.CertificateDeposit.Model;
 
 public class InterestFormula {
     private double A; // Final amount
