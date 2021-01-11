@@ -17,7 +17,7 @@ public class InterestFormula {
     }
 
     // Use formula A = P(1+r/n)^(nt)
-    private double calculateResult(double P, double r, double n, double t) {
+    public double calculateResult(double P, double r, double n, double t) {
         double result;
         result = P * Math.pow(1 + (r/n), n*t);
 

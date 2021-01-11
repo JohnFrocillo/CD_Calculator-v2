@@ -8,6 +8,22 @@ public class Bank {
     private double t; // Number of time periods elapsed
     private double A; // result of the CD
 
+    public Bank(String name, double P, double r, double n, double t) {
+        this.name = name;
+        this.P = P;
+        this.r = r;
+        this.n = n;
+        this.t = t;
+        this.A = calculateResult(P,r,n,t);
+    }
+
+    private double calculateResult(double P, double r, double n, double t) {
+        double result;
+        result = P * Math.pow(1 + (r/n), n*t);
+
+        return result;
+    }
+
     public String getName() {
         return this.name;
     }
